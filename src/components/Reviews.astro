@@ -1,73 +1,105 @@
 ---
-import svgNew from '../assets/new.svg'
+import svgNew from "../assets/new.svg";
 
 const testimonials = [
-  { 
-    comment: `“Design is a bridge that connects everyone and everything”`,
+  {
+    comment: `“The packaging design Amit created made our product look like a million-dollar brand. He has a rare ability to balance creativity with market sense”`,
     author: {
-      name: `Client Name`,
-      pos: `Project Manager, Company Name`,
-      pic: `https://images.pexels.com/photos/2709386/pexels-photo-2709386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`
+      name: `Arpana`,
+      pos: `Co-Founder, Kesar Biryani`,
+      pic: `https://images.pexels.com/photos/2709386/pexels-photo-2709386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `rotate-2 -translate-y-10`
-   },
-   { 
-    comment: `“Design is a bridge that connects everyone and everything”`,
+    cls: `rotate-2 -translate-y-10`,
+  },
+  {
+    comment: `“Amit understood our brand better than we did. From concept to execution, every element of our new identity reflected clarity and purpose. Our audience now connects with us instantly”`,
     author: {
-      name: `Client Name`,
-      pos: `Project Manager, Company Name`,
-      pic: `https://images.pexels.com/photos/2128819/pexels-photo-2128819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`
+      name: ``,
+      pos: `Founder, EcoShift`,
+      pic: `https://images.pexels.com/photos/2128819/pexels-photo-2128819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `-rotate-2 -translate-x-10  z-5`
-   },
-   { 
-    comment: `“Design is a bridge that connects everyone and everything”`,
+    cls: `-rotate-2 -translate-x-10  z-5`,
+  },
+  {
+    comment: `“Working with Amit was like having a creative partner who also thinks like a strategist. He didn’t just design visuals — he built a system that made our communication consistent and professional.”`,
     author: {
-      name: `Client Name`,
-      pos: `Project Manager, Company Name`,
-      pic: `https://images.pexels.com/photos/2169429/pexels-photo-2169429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`
+      name: `Neha Agarwal`,
+      pos: `Marketing Head, HPCL`,
+      pic: `https://images.pexels.com/photos/2169429/pexels-photo-2169429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `rotate-2 translate-x-5 z-5`
-   },
-   { 
-    comment: `“Design is a bridge that connects everyone and everything”`,
+    cls: `rotate-2 translate-x-5 z-5 `,
+  },
+  {
+    comment: `“The social campaigns designed by Amit gave our online presence a complete makeover. His attention to color, typography, and layout helped our content feel premium and recognizable.”`,
     author: {
-      name: `Client Name`,
-      pos: `Project Manager, Company Name`,
-      pic: `https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`
+      name: `Priya Menon`,
+      pos: `Director, Creatiwise`,
+      pic: `https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `-rotate-2 translate-y-10 md:translate-y-15`
-   },
-]
+    cls: `-rotate-2 translate-y-10 md:translate-y-15`,
+  },
+  {
+    comment: `“What stood out was Amit’s ability to listen. He took our scattered ideas and turned them into visuals that perfectly aligned with our mission. The design process felt effortless.”`,
+    author: {
+      name: `Vikas Patel`,
+      pos: `Project Lead, CASE`,
+      pic: `https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
+    },
+    cls: `rotate-2 translate-x-10 -z-5 translate-y-5 `,
+  },
+  {
+    comment: `“Our rebrand exceeded expectations. Amit brought modernity and structure to our visuals while keeping our original brand spirit intact. The new identity has helped us grow confidently.”`,
+    author: {
+      name: `Sana Qureshi`,
+      pos: `Managing Partner, Radisson Blu (Event Division)`,
+      pic: `https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
+    },
+    cls: `-rotate-3  translate-y-10 md:translate-y-25   `,
+  },
+];
 ---
 
-
 <section>
-    <div class="max-w-4xl mx-auto pb-20 px-10 overflow-hidden">
-      <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="flex relative">
-          <h1 class="text-3xl">Here’s what my clients are saying about my work</h1>
-          <img src={svgNew.src} alt="arrow" width="40" class="absolute -right-3 md:-right-10 bottom-0" />
-        </div>
+  <div class="mx-auto max-w-5xl overflow-hidden px-10 pb-20">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="relative flex">
+        <h1 class="text-3xl">
+          Here’s what my clients are saying about my work
+        </h1>
+        <img
+          src={svgNew.src}
+          alt="arrow"
+          width="40"
+          class="absolute -right-3 bottom-0 md:-right-10"
+        />
       </div>
-  
-  
-      <div class="grid grid-cols-1 md:grid-cols-2 py-30">
-        {testimonials.map(item => ( 
-          <div class={`flex flex-col gap-3 p-5 pr-15 bg-white border-2 shadow-[6px_6px_0px_rgba(0,0,0,0.3)] ${item.cls}`}>
-            <p>{item.comment}</p>
+    </div>
+
+    <div class="grid grid-cols-1 py-30 md:grid-cols-2">
+      {
+        testimonials.map((item) => (
+          <div
+            class={`flex flex-col gap-3 border-2 bg-white p-5 pr-15 shadow-[6px_6px_0px_rgba(0,0,0,0.3)] ${item.cls}`}
+          >
+            <p class="text-sm">{item.comment}</p>
             <div class="flex items-center gap-2">
-              <div><div class="size-11 rounded-full border overflow-hidden">
-                  <img src={item.author.pic} alt="" class="w-full h-full object-cover" />
-              </div></div>
+              <div>
+                <div class="size-11 overflow-hidden rounded-full border">
+                  <img
+                    src={item.author.pic}
+                    alt=""
+                    class="h-full w-full object-cover"
+                  />
+                </div>
+              </div>
               <div>
                 <h3 class="font-medium">{item.author.name}</h3>
                 <p>{item.author.pos}</p>
               </div>
             </div>
           </div>
-        ))}
-      </div>
-  
+        ))
+      }
     </div>
-   </section>
+  </div>
+</section>

@@ -1,8 +1,27 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css');
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css");
 
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Mostical";
+  src: url("/fonts/Mostical-Demo.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/FreeSans.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("/fonts/FreeSansBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

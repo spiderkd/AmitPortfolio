@@ -7,9 +7,14 @@ const author = {
   email: "mailto:anthonylannn@gmail.com",
 };
 
-const buy = {
-  title: `See on Github`,
-  link: `https://github.com/anthonylan/angie`,
+const buy1 = {
+  title: `Shoot an email`,
+  link: `mailto:amit@gmail.com`,
 };
 
-export { author, buy };
+const buy2 = {
+  title: `Connect with me`,
+  link: `https://www.linkedin.com/in/amit-mishra-446367259/`,
+};
+
+export { author, buy1, buy2 };

@@ -1,18 +1,22 @@
 ---
-import '../styles/global.css'
-import Layout from "../layouts/Layout.astro"
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
 
-import Header from '../components/Header.astro'
-import Hero from '../components/Hero.astro'
-import Tools from '../components/Tools.astro'
-import Footer from '../components/Footer.astro'
-import Reviews from '../components/Reviews.astro'
-import CallToAction from '../components/CallToAction.astro'
-import Works from '../components/Works.astro'
-import Service from '../components/Service.astro'
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import Tools from "../components/Tools.astro";
+import Footer from "../components/Footer.astro";
+import Reviews from "../components/Reviews.astro";
+import CallToAction from "../components/CallToAction.astro";
+import Works from "../components/Works.astro";
+import Service from "../components/Service.astro";
+import { MotionCardsDemo } from "../components/MotionCardsComponent";
 
+import { Journey } from "../components/journey";
+
+// import Example from "../components/LogoMarquee";
+// import { Kaka } from "../components/ScalingCards";
 ---
-
 
 <Layout>
   <Header />
@@ -20,8 +24,15 @@ import Service from '../components/Service.astro'
   <Tools />
   <Service />
   <Works />
+  <!-- <Kaka client:only="react" /> -->
+
+  <Journey />
   <Reviews />
+  <!-- <Example client:only="react" /> -->
+
+  <MotionCardsDemo client:only="react" />
+  <div class="my-20"></div>
   <CallToAction />
+
   <Footer />
 </Layout>
-

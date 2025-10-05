@@ -1,51 +1,84 @@
 ---
-import Bars from "./Bars.astro"
+import Bars from "./Bars.astro";
 
-import svgUnderline from '../assets/underline.svg'
-import arrowCard from '../assets/arrow-card.svg'
+import svgUnderline from "../assets/underline.svg";
+import arrowCard from "../assets/arrow-card.svg";
+import { coerce } from "astro:schema";
 
 const portfolio = [
-  { 
-    name: 'Portfolio design', desc: `UI design - User research - webflow development`,
-    cover: `https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`
+  {
+    name: "LookBook design",
+    desc: `Bean & Blend, a Coffee brewing company focusing on traditional and premium coffee beans and blend.`,
+    cover: `/works/LookBookTitle.png`,
+    link: "/works/LookBook.pdf",
   },
-  { 
-    name: 'Portfolio design', desc: `UI design - User research - webflow development`,
-    cover: `https://images.pexels.com/photos/2303781/pexels-photo-2303781.jpeg?auto=compress&cs=tinysrgb&w=1600`
+  {
+    name: "Brand Identity",
+    desc: `Innovathon, a 36 hours hackathon event based on software as well as hardware.`,
+    cover: `/works/Innovathon.png`,
+    link: "/works/BrandIdentity.pdf",
   },
-  { 
-    name: 'Portfolio design', desc: `UI design - User research - webflow development`,
-    cover: `https://images.pexels.com/photos/441963/pexels-photo-441963.jpeg?auto=compress&cs=tinysrgb&w=1600`
+  {
+    name: "Brand Guidelines",
+    desc: `Nextlayer, an EdTech and deep tech company focusing on providing solutions on emerging skills.`,
+    cover: `/works/brand guidelines-01 1.png`,
+    link: "/works/brandIdntityNextlayer.pdf",
   },
-  { 
-    name: 'Portfolio design', desc: `UI design - User research - webflow development`,
-    cover: `https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&w=1600`
+
+  {
+    name: "Brand Guidelines",
+    desc: `The Tatathsu collection, a hotel management group providing luxury hospitality services.`,
+    cover: `/works/brand guidelines-01 2.png`,
+    link: "/works/brandIdendity2.pdf",
   },
-]
+  {
+    name: "Pakaging",
+    desc: `Collection of premium pakaging design from boxes to pouches.`,
+    cover: `/works/7 2.png`,
+    link: "/works/pakaging.pdf",
+  },
+  {
+    name: "PosterFolio",
+    desc: `Collection of premium poster designs.`,
+    cover: `/works/27 1.png`,
+    link: "/works/poster.pdf",
+  },
+];
 ---
 
+<section class="mx-auto max-w-5xl space-y-10 px-5 py-25" id="work">
+  <div class="relative mx-auto max-w-md">
+    <h1 class="text-center text-4xl font-medium">My Portfolio</h1>
+    <img
+      src={svgUnderline.src}
+      alt="arrow"
+      width="140"
+      class="absolute -bottom-1 left-50"
+    />
+  </div>
 
-<section class="py-25 space-y-10 px-5" id="work">
-    <div class="max-w-md mx-auto relative ">
-      <h1 class="text-4xl font-medium text-center">My Portfolio</h1>
-      <img src={svgUnderline.src} alt="arrow" width="140" class="absolute left-50 -bottom-1" />
-    </div>
-  
-    <div class="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10"> 
-      {portfolio.map(item => ( 
-        <a href="#" class="flex flex-col bg-white p-5 group relative transition-all duration-200 hover:shadow-[4px_4px_0px_rgba(0,0,0,0.3)]">
-          <div class="w-full h-[200px] overflow-hidden border-2">
-           <img src={item.cover} alt="" class="w-full h-full object-cover" />
+  <div class="mx-auto grid max-w-3xl grid-cols-1 gap-10 md:grid-cols-2">
+    {
+      portfolio.map((item) => (
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noreferrer noopener"
+          class="group relative flex flex-col bg-white p-5 transition-all duration-200 hover:shadow-[4px_4px_0px_rgba(0,0,0,0.3)]"
+        >
+          <div class="h-[200px] w-full overflow-hidden border-2">
+            <img src={item.cover} alt="" class="h-full w-full object-cover" />
           </div>
           <div class="space-y-1 pt-4">
             <div class="flex pr-2">
-              <h2 class="text-xl font-medium flex-1">{item.name}</h2>
+              <h2 class="flex-1 text-xl font-medium">{item.name}</h2>
               <img src={arrowCard.src} alt="arrow" width="25" />
             </div>
             <p class="mr-20">{item.desc}</p>
           </div>
           <Bars />
         </a>
-      ))}
-    </div>
+      ))
+    }
+  </div>
 </section>

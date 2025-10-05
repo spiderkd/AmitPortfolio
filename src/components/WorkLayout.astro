@@ -1,0 +1,64 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+
+const { frontmatter, children } = Astro.props;
+---
+
+<!-- ---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import AppHeader from "./Header.astro";
+import AppFooter from "./Footer.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout>
+  <AppHeader />
+
+  <section class="w-full">
+    {
+      frontmatter.images && frontmatter.images.length > 0 && (
+        <div class="flex flex-col">
+          {frontmatter.images.map((img: any) => (
+            <div class="h-screen w-full">
+              <Image
+                src={img.url}
+                alt={img.alt || "Gallery Image"}
+                class="h-full w-full object-cover"
+                width={1920}
+                height={1080}
+              />
+            </div>
+          ))}
+        </div>
+      )
+    }
+  </section>
+
+  <AppFooter />
+</Layout> -->
+<Layout>
+  <section class="w-full">
+    <div class="flex flex-col">
+      {
+        frontmatter.images &&
+          frontmatter.images.map((img: any) => (
+            <div class="h-screen w-full">
+              <Image
+                src={img.url}
+                alt={img.alt || "Gallery Image"}
+                class="h-full w-full object-cover"
+                width={1920}
+                height={1080}
+              />
+            </div>
+          ))
+      }
+    </div>
+  </section>
+
+  {children}
+  <!-- optional slot for extra Markdown text -->
+</Layout>
