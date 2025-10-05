@@ -255,15 +255,6 @@
   window.addEventListener("load", () => {
     const splash = document.getElementById("splash");
     splash.classList.add("hidden");
-    setTimeout(() => splash.remove(), 500);
+    setTimeout(() => splash.remove(), 500); // remove after fade
   });
-
-  // fallback: hide splash after 3 seconds no matter what
-  setTimeout(() => {
-    const splash = document.getElementById("splash");
-    if (splash) {
-      splash.classList.add("hidden");
-      setTimeout(() => splash.remove(), 500);
-    }
-  }, 3000);
 </script>
