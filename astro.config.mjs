@@ -10,7 +10,8 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  output: "server", // or 'static' if fully static
+  output: "static", // use static output since it’s only frontend
+
   adapter: netlify(),
   integrations: [react()],
 });
