@@ -1,13 +1,13 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: "Art Nouveau: The Elegance of Flowing Design"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog21.png"
+  - url: "/blogs/blog21.webp"
     alt: "Beautiful sunrise"
-  - url: "/blogs/blog22.png"
+  - url: "/blogs/blog22.webp"
     alt: "Another angle"
 tags: [""]
 pubDate: "Feb 09, 2025"

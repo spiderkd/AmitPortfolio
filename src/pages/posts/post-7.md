@@ -1,13 +1,13 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: "Swiss Style,The Birth of Modern Visual Communication"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog81.png"
+  - url: "/blogs/blog81.webp"
     alt: "Beautiful sunrise"
-  - url: "/blogs/blog82.png"
+  - url: "/blogs/blog82.webp"
     alt: "Another angle"
 
 tags: [""]
@@ -16,9 +16,7 @@ likes: "12.3k"
 comments: "119"
 ---
 
-# Swiss Style
-
-## The Birth of Modern Visual Communication
+## Swiss Style, The Birth of Modern Visual Communication
 
 By the mid-20th century, graphic design entered a new era of **clarity, order, and universality**. Known as the **Swiss Style** or **International Typographic Style**, this movement became one of the most influential design approaches of the modern age—and it still defines much of today’s branding, publishing, and digital design.
 

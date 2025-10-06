@@ -1,13 +1,13 @@
 import { MotionCard } from "./MotionCard";
 import type { ReactElement } from "react";
-import asset1 from "../assets/me/asset1.png";
-import asset2 from "../assets/me/asset2.png";
-import asset3 from "../assets/me/asset3.png";
-import asset4 from "../assets/me/asset4.png";
-import asset5 from "../assets/me/asset5.png";
-import asset6 from "../assets/me/asset6.png";
-import asset7 from "../assets/me/asset7.png";
-import asset8 from "../assets/me/asset8.png";
+import asset1 from "../assets/me/asset1.webp";
+import asset2 from "../assets/me/asset2.webp";
+import asset3 from "../assets/me/asset3.webp";
+import asset4 from "../assets/me/asset4.webp";
+import asset5 from "../assets/me/asset5.webp";
+import asset6 from "../assets/me/asset6.webp";
+import asset7 from "../assets/me/asset7.webp";
+import asset8 from "../assets/me/asset8.webp";
 // import { RiLockStarFill } from "react-icons/ri";
 
 const data = [
@@ -24,7 +24,7 @@ const data = [
     class: "w-64",
   },
   {
-    src: asset4.src,
+    src: asset6.src,
     class: "w-64",
   },
   {
@@ -32,7 +32,7 @@ const data = [
     class: "w-64",
   },
   {
-    src: asset6.src,
+    src: asset4.src,
     class: "w-64",
   },
 
@@ -52,9 +52,9 @@ export function MotionCardsDemo() {
     <Card1 src={asset1.src} className="h-20svh w-96" />,
     <Card1 src={asset2.src} className="h-20svh w-96" />,
     <Card1 src={asset3.src} className="h-20svh w-96" />,
-    <Card1 src={asset4.src} className="h-20svh w-96" />,
-    <Card1 src={asset5.src} className="h-20svh w-96" />,
     <Card1 src={asset6.src} className="h-20svh w-96" />,
+    <Card1 src={asset5.src} className="h-20svh w-96" />,
+    <Card1 src={asset4.src} className="h-20svh w-96" />,
     <Card1 src={asset7.src} className="h-20svh w-96" />,
     <Card1 src={asset8.src} className="h-20svh w-96" />,
   ];
@@ -62,8 +62,8 @@ export function MotionCardsDemo() {
     <div className="w-full">
       <MotionCard
         mainText={{
-          text: "born in chas 🌆 based in bokaro 📍\n i love exploring typography ✒️ sketching ideas ✏️ \n design books 📚 café brainstorming ☕\n and late night creative sprints 🌙",
-          className: " text-2xl whitespace-pre-line",
+          text: "Born in chas 🌆 based in bokaro 📍\n I love exploring typography ✒️ sketching ideas ✏️ \n design books 📚 café brainstorming ☕\n and late night creative sprints 🌙",
+          className: " text-3xl whitespace-pre-line",
         }}
         cards={cardsArray}
       />

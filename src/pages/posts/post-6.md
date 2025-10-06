@@ -1,13 +1,13 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: " Bauhaus: The Blueprint of Modern Graphic Design"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog72.png"
+  - url: "/blogs/blog72.webp"
     alt: "Another angle"
-  - url: "/blogs/blog71.png"
+  - url: "/blogs/blog71.webp"
     alt: "another one"
 tags: [""]
 pubDate: "Feb 09, 2025"

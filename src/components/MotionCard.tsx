@@ -110,10 +110,10 @@ export function MotionCard({ mainText, cards, scrollerRef }: MotionCardProps) {
         className="mb-6 flex h-full w-full flex-col items-center justify-center"
       >
         {/* Main Text */}
-        <h5 className="text-xl text-gray-600">my life beyond pixels</h5>
+        <h5 className="pb-2 text-xl text-gray-600">my life beyond pixels</h5>
         <h1
           className={cn(
-            "mx-auto w-[70%] px-32 text-center text-9xl font-extrabold",
+            "mx-auto w-[70%] px-32 text-center text-[9rem] font-extrabold",
             typeof mainText === "string" ? "" : mainText.className,
           )}
           style={{ fontFamily: "Mostical, sans-serif", fontWeight: 400 }}

@@ -1,13 +1,13 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: " Constructivism: The Power of Design for the Masses"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog51.png"
+  - url: "/blogs/blog51.webp"
     alt: "Beautiful sunrise"
-  - url: "/blogs/blog52.png"
+  - url: "/blogs/blog52.webp"
     alt: "Another angle"
 
 tags: [""]

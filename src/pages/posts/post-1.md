@@ -5,13 +5,13 @@ author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog43.png"
+  - url: "/blogs/blog43.webp"
     alt: "Beautiful sunrise"
-  - url: "/blogs/blog42.png"
+  - url: "/blogs/blog42.webp"
     alt: "Another angle"
-  - url: "/blogs/blog44.png"
+  - url: "/blogs/blog44.webp"
     alt: "Close-up detail"
-  - url: "/blogs/blog41.png"
+  - url: "/blogs/blog41.webp"
     alt: "another one"
 tags: [""]
 pubDate: "Feb 09, 2025"

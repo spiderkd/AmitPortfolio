@@ -1,13 +1,13 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: " De Stijl: The Pursuit of Universal Harmony"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 images:
-  - url: "/blogs/blog61.png"
+  - url: "/blogs/blog61.webp"
     alt: "Beautiful sunrise"
-  - url: "/blogs/blog62.png"
+  - url: "/blogs/blog62.webp"
     alt: "Another angle"
 
 tags: [""]
