@@ -25,7 +25,9 @@ import { Journey } from "../components/journey";
   <Service />
   <Works />
   <Journey />
-  <MotionCardsDemo client:only="react" />
+  <div class="max-md:hidden">
+    <MotionCardsDemo client:only="react" />
+  </div>
   <Reviews />
   <div class="my-20"></div>
   <CallToAction />

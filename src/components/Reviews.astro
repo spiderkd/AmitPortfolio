@@ -9,7 +9,7 @@ const testimonials = [
       pos: `Co-Founder, Kesar Biryani`,
       pic: `https://images.pexels.com/photos/2709386/pexels-photo-2709386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `rotate-2 -translate-y-10`,
+    cls: `rotate-2 translate-y-0 md:-translate-y-10`,
   },
   {
     comment: `“Amit understood our brand better than we did. From concept to execution, every element of our new identity reflected clarity and purpose. Our audience now connects with us instantly”`,
@@ -36,7 +36,7 @@ const testimonials = [
       pos: `Director, Creatiwise`,
       pic: `https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2`,
     },
-    cls: `-rotate-2 translate-y-10 md:translate-y-15`,
+    cls: `-rotate-2 translate-y-0 md:translate-y-15`,
   },
   {
     comment: `“What stood out was Amit’s ability to listen. He took our scattered ideas and turned them into visuals that perfectly aligned with our mission. The design process felt effortless.”`,
@@ -94,7 +94,7 @@ const testimonials = [
               </div>
               <div>
                 <h3 class="font-medium">{item.author.name}</h3>
-                <p>{item.author.pos}</p>
+                <p class="text-sm md:text-base">{item.author.pos}</p>
               </div>
             </div>
           </div>

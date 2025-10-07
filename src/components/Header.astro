@@ -11,7 +11,7 @@ const links = [
 const { pathname } = Astro.url;
 ---
 
-<header class="relative h-[20vh] overflow-hidden border-b-3 p-7">
+<header class="relative h-[16vh] overflow-hidden border-b-3 p-7 md:h-[20vh]">
   <img
     src={svgPinkStar.src}
     alt="svg"
@@ -28,7 +28,7 @@ const { pathname } = Astro.url;
   />
 
   <div
-    class="absolute top-[10vh] left-[50%] z-20 mx-auto w-full max-w-[310px] -translate-x-1/2 -translate-y-1/2 md:max-w-xl"
+    class="absolute top-[8vh] left-[50%] z-20 mx-auto w-full max-w-[310px] -translate-x-1/2 -translate-y-1/2 md:top-[10vh] md:max-w-xl"
   >
     <div
       class="relative m-auto flex max-w-[310px] border-3 border-black bg-white md:max-w-xl"
@@ -119,6 +119,16 @@ const { pathname } = Astro.url;
         </li>
       ))
     }
+    <li class="py-3">
+      <a
+        href="https://wa.me/7856922040?text=Hi%20there!%20I%27m%20interested%20in%20working%20with%20you."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="p-3 text-2xl font-bold whitespace-nowrap"
+      >
+        <span class="relative z-5"> Hire me </span>
+      </a>
+    </li>
   </ul>
 </div>
 

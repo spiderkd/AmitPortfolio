@@ -51,7 +51,7 @@ const data = [
 // export default Journey;
 export function Journey() {
   return (
-    <section>
+    <section className="mx-auto max-w-5xl">
       <div className="relative mx-auto my-20 max-w-md">
         <h1 className="text-center text-4xl font-medium">My Journey</h1>
         <img
@@ -61,11 +61,16 @@ export function Journey() {
           className="absolute -bottom-1 left-50"
         />
       </div>
-      <div className="mx-auto mt-10 flex max-w-5xl snap-x snap-mandatory space-x-6 overflow-x-auto p-4">
+      {/* <div className="mx-auto mt-10 flex max-w-5xl snap-x snap-mandatory space-x-6 overflow-x-auto p-4"> */}
+      <div className="scrollbar-hide mx-auto mt-8 flex snap-x space-x-4 overflow-x-auto px-6 py-4 sm:space-x-6 sm:px-10">
         {data.map((item, index) => (
+          // <div
+          //   key={index}
+          //   className="relative w-[350px] flex-shrink-0 snap-center rounded-xl bg-white p-10 shadow-md md:w-[400px]"
+          // >
           <div
             key={index}
-            className="relative w-[400px] flex-shrink-0 snap-center rounded-xl bg-white p-10 shadow-md"
+            className="relative w-[80vw] flex-shrink-0 snap-center rounded-xl bg-white p-6 shadow-md transition-transform duration-300 hover:scale-[0.98] active:scale-[0.98] sm:w-[320px] md:w-[360px]"
           >
             {/* Top Row */}
             <div className="mb-5 flex items-center justify-between space-x-2">
@@ -114,8 +119,8 @@ export function Journey() {
             </p>
 
             {/* Optional border frame */}
-            <div className="absolute bottom-0 left-1/2 w-[105%] -translate-x-1/2 rounded-full border-b-2" />
-            <div className="absolute top-0 left-1/2 w-[105%] -translate-x-1/2 rounded-full border-t-2" />
+            <div className="absolute bottom-0 left-1/2 w-[103%] -translate-x-1/2 rounded-full border-b-2 md:w-[105%]" />
+            <div className="absolute top-0 left-1/2 w-[103%] -translate-x-1/2 rounded-full border-t-2 md:w-[105%]" />
             <div className="absolute -bottom-2 left-0 h-[105%] rounded-full border-l-2" />
             <div className="absolute right-0 -bottom-2 h-[105%] rounded-full border-r-2" />
           </div>

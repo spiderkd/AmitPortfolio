@@ -1,8 +1,8 @@
 const author = {
   name: `Amit`,
   nickname: `Amit`,
-  tiktok: `https://www.tiktok.com/@codetonero`,
-  ig: `https://www.instagram.com/codetonero/`,
+  tiktok: `https://www.linkedin.com/in/amit-mishra-446367259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app`,
+  ig: `https://www.instagram.com/akmdesign2025?igsh=bDlyY2Jyc210MTB1`,
   x: `https://x.com/codetonero`,
   email: "mailto:anthonylannn@gmail.com",
 };
