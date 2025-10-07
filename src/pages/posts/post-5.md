@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " De Stijl: The Pursuit of Universal Harmony"
+title: " De Stijl"
+subtitle: " The Pursuit of Universal Harmony"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -16,7 +17,6 @@ likes: "12.3k"
 comments: "119"
 ---
 
-# De Stijl: The Pursuit of Universal Harmony
 
 Amid the turbulence of the early 20th century, a group of **Dutch artists and designers** introduced a radically new vision of design—one built on **simplicity, abstraction, and order**. This was **De Stijl**, a movement that sought to **strip away the unnecessary** and arrive at a **universal visual language**.
 

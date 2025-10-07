@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: "Art Nouveau: The Elegance of Flowing Design"
+title: "Art Nouveau"
+subtitle: "The Elegance of Flowing Design"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -14,8 +15,6 @@ pubDate: "Feb 09, 2025"
 likes: "12.3k"
 comments: "119"
 ---
-
-# Art Nouveau: The Elegance of Flowing Design
 
 Following the handcrafted ideals of the **Arts and Crafts Movement**, the late 19th and early 20th centuries saw the rise of **Art Nouveau**—a design movement that celebrated beauty, ornamentation, and the seamless integration of art into everyday life.
 

@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " The Arts and Crafts Movement: A Foundation of Graphic Design"
+title: " The Arts and Crafts Movement"
+subtitle: "A Foundation of Graphic Design"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -9,10 +10,10 @@ images:
     alt: "Beautiful sunrise"
   - url: "/blogs/blog42.webp"
     alt: "Another angle"
-  - url: "/blogs/blog44.webp"
-    alt: "Close-up detail"
-  - url: "/blogs/blog41.webp"
-    alt: "another one"
+  # - url: "/blogs/blog44.webp"
+  #   alt: "Close-up detail"
+  # - url: "/blogs/blog41.webp"
+  #   alt: "another one"
 tags: [""]
 pubDate: "Feb 09, 2025"
 likes: "12.3k"

@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: "Swiss Style,The Birth of Modern Visual Communication"
+title: "Swiss Style"
+subtitle: "The Birth of Modern Visual Communication"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -15,8 +16,6 @@ pubDate: "Feb 09, 2025"
 likes: "12.3k"
 comments: "119"
 ---
-
-## Swiss Style, The Birth of Modern Visual Communication
 
 By the mid-20th century, graphic design entered a new era of **clarity, order, and universality**. Known as the **Swiss Style** or **International Typographic Style**, this movement became one of the most influential design approaches of the modern age—and it still defines much of today’s branding, publishing, and digital design.
 

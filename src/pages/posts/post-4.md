@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " Constructivism: The Power of Design for the Masses"
+title: " Constructivism"
+subtitle: "The Power of Design for the Masses"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -16,7 +17,7 @@ likes: "12.3k"
 comments: "119"
 ---
 
-# Constructivism: The Power of Design for the Masses
+
 
 While **Art Deco** captured the glamour of the 1920s, another movement was taking root in **Russia** with a very different mission. **Constructivism** wasn’t about luxury or ornament—it was about **communication, politics, and the power of design to serve society**.
 

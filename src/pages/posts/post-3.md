@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " Art Deco: The Geometry of Modern Elegance"
+title: " Art Deco"
+subtitle: "The Geometry of Modern Elegance"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -15,8 +16,6 @@ pubDate: "Feb 09, 2025"
 likes: "12.3k"
 comments: "119"
 ---
-
-# Art Deco: The Geometry of Modern Elegance
 
 As the world moved into the **1920s**, design shifted dramatically from the flowing curves of **Art Nouveau** to something sharper, bolder, and more modern. This was the age of **Art Deco**—a movement that embodied **luxury, progress, and the spirit of the Jazz Age**.
 

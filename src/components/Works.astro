@@ -48,7 +48,12 @@ const portfolio = [
 
 <section class="mx-auto max-w-5xl space-y-10 px-5 py-25" id="work">
   <div class="relative mx-auto max-w-md">
-    <h1 class="text-center text-4xl font-medium">My Portfolio</h1>
+    <h1
+      class="text-center text-4xl font-medium"
+      style={{ fontFamily: "Mostical" }}
+    >
+      My Portfolio
+    </h1>
     <img
       src={svgUnderline.src}
       alt="arrow"
@@ -71,10 +76,17 @@ const portfolio = [
           </div>
           <div class="space-y-1 pt-4">
             <div class="flex pr-2">
-              <h2 class="flex-1 text-xl font-medium">{item.name}</h2>
+              <h2
+                class="flex-1 text-xl font-medium"
+                style={{ fontFamily: "Mostical" }}
+              >
+                {item.name}
+              </h2>
               <img src={arrowCard.src} alt="arrow" width="25" />
             </div>
-            <p class="mr-20">{item.desc}</p>
+            <p class="mr-20" style={{ fontFamily: "Helvetica" }}>
+              {item.desc}
+            </p>
           </div>
           <Bars />
         </a>

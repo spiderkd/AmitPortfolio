@@ -1,6 +1,7 @@
 ---
 layout: ../../components/MarkdownPost.astro
-title: " Bauhaus: The Blueprint of Modern Graphic Design"
+title: " Bauhaus"
+subtitle: " The Blueprint of Modern Graphic Design"
 author:
   name: "Jessica Stillman"
   url: "https://images.pexels.com/photos/935743/pexels-photo-935743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -15,7 +16,6 @@ likes: "12.3k"
 comments: "119"
 ---
 
-# Bauhaus: The Blueprint of Modern Graphic Design
 
 If there is one movement that shaped the foundation of **modern graphic design**, it is without doubt the **Bauhaus**. More than a style, Bauhaus was a **philosophy** that united **art, craft, and technology** into a new approach that continues to influence design today.
 

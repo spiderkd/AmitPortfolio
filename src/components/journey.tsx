@@ -53,7 +53,12 @@ export function Journey() {
   return (
     <section className="mx-auto max-w-5xl">
       <div className="relative mx-auto my-20 max-w-md">
-        <h1 className="text-center text-4xl font-medium">My Journey</h1>
+        <h1
+          className="text-center text-4xl font-medium"
+          style={{ fontFamily: "Mostical" }}
+        >
+          My Journey
+        </h1>
         <img
           src={svgUnderline.src}
           alt="arrow"
