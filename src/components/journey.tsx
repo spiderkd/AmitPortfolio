@@ -16,7 +16,7 @@ const data = [
     color: "#FF6258",
     company: "24K Collective Creatives",
     designation: "Graphic Designer",
-    desc: "Leading the creative direction for a marketing & design startup. Managed end-to-end branding projects, from logo systems to digital campaigns, and redesigned the company's visual identity. Worked with clients like HOOL, OCL, Radisson Blu, and CASE.",
+    desc: "Leading the creative direction for a marketing & design startup. Managed end-to-end branding projects, from logo systems to digital campaigns, and redesigned the company's visual identity. Worked with clients like HOCL, IOCL, Radisson Blu, and CASE.",
     logo: "/logos/logo8.webp",
   },
   {
